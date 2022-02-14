@@ -11,5 +11,5 @@ $router->setRoutes($routes);
 $url = $_SERVER['REQUEST_URI'];
 
 //echo ( __DIR__."/../api/".$router->getFilename($url));
-require __DIR__."/../api/".$router->getFilename($url); // serving a page  bases on url
+require __DIR__."/../api/".$router->getFilename($url); // serving a page  based on url
 ?>
